@@ -22,6 +22,7 @@ return new class extends Migration
             $table->string('website')->nullable();
             $table->string('phone');
             $table->string('city');
+            $table->string('resume')->nullable();
             $table->string('degree');
             $table->string('email');
             $table->text('long_description');

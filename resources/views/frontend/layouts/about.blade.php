@@ -21,7 +21,7 @@
                 <div class="col-lg-6">
                   <ul>
                     <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>{{$about->birthday}}</span></li>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>{{$about->website}}</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <a href="{{$about->website}}">{{$about->website}}</a></li>
                     <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>{{$about->phone}}</span></li>
                     <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>{{$about->city}}</span></li>
                   </ul>
@@ -31,6 +31,7 @@
                     <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>{{\Carbon\Carbon::parse($about->birthday)->diff(\Carbon\Carbon::now())->format('%y years');}}</span></li>
                     <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>{{$about->degree}}</span></li>
                     <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <a  href="mailto:kumarpanjiyara.roshan@gmail.com">{{$about->email}}</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Resume:</strong> <a href="" target="_blank">Download <i class='bx bxs-download bx-tada bx-rotate-180' ></i></a></li>
                   </ul>
                 </div>
               </div>
