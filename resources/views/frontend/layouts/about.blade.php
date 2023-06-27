@@ -21,7 +21,7 @@
                 <div class="col-lg-6">
                   <ul>
                     <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>{{$about->birthday}}</span></li>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <a href="{{$about->website}}">{{$about->website}}</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <a href="{{$about->website}}">Portfolio</a></li>
                     <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>{{$about->phone}}</span></li>
                     <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>{{$about->city}}</span></li>
                   </ul>
